@@ -13,7 +13,7 @@ func main() {
 	// xは0-10の間の値になる
 	s := rand.Intn(6)
 	// println(s)
-	switch s {
+	switch s + 1 {
 		case 6:
 			println("大吉")
 		case 5, 4:
